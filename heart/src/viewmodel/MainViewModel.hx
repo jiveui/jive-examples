@@ -23,9 +23,13 @@ class MainViewModel extends jive.ViewModel {
     public function new() {
         super();
 
+        run();
+    }
+
+    private function run() {
+
         var stageW: Int = Std.int(Lib.current.stage.stageWidth);
 
-        radius = Std.int(stageW / 8);
         rectSize = Std.int(stageW / 4);
 
         rectX =  Std.int(stageW/2);
@@ -33,10 +37,7 @@ class MainViewModel extends jive.ViewModel {
 
         strokeColor = Color.LIGHT_GRAY.toSvg();
 
-        run();
-    }
-
-    private function run() {
+        radius = Std.int(stageW / 8);
 
         circle1X = circle2X = Std.int(rectX + rectSize/2);
         circle1Y = circle2Y = Std.int(rectY + rectSize/2);
@@ -46,10 +47,11 @@ class MainViewModel extends jive.ViewModel {
 
     private function moveCirclesToCorners() {
         Actuate.tween(this, 1.5, {
-                circle1X: Std.int(rectX + rectSize/2),
-                circle1Y: rectY,
-                circle2X: Std.int(rectX + rectSize),
-                circle2Y: Std.int(rectY + rectSize/2)
+                radius: Std.int(rectSize/4)
+//                circle1X: Std.int(rectX + rectSize/2),
+//                circle1Y: Std.int(rectY + rectSize/2)
+//                circle2X: Std.int(rectX + rectSize),
+//                circle2Y: Std.int(rectY + rectSize/2)
             })
             .ease(Linear.easeNone)
             .onComplete(function() {
