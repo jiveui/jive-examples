@@ -29,20 +29,31 @@ class MainViewModel extends jive.ViewModel {
         rectSize = Std.int(stageW / 4);
 
         rectX =  Std.int(stageW/2);
-        rectY =  Std.int(Lib.current.stage.stageHeight/2 - rectSize);
+        rectY =  Std.int(Lib.current.stage.stageHeight/2 - rectSize/2);
+
+        strokeColor = Color.LIGHT_GRAY.toSvg();
+
+        run();
+    }
+
+    private function run() {
 
         circle1X = circle2X = Std.int(rectX + rectSize/2);
         circle1Y = circle2Y = Std.int(rectY + rectSize/2);
 
-        strokeColor = Color.GRAY.toSvg();
+        moveCirclesToCorners();
     }
 
     private function moveCirclesToCorners() {
-        Actuate.tween(this, 1, {
-            circle1X: rectX + rectSize,
-            circle1Y: rectY,
-            circle2X: rectX + rectSize,
-            circle2Y: rectY + rectSize
-        }).ease(Linear.easeNone);
+        Actuate.tween(this, 1.5, {
+                circle1X: Std.int(rectX + rectSize/2),
+                circle1Y: rectY,
+                circle2X: Std.int(rectX + rectSize),
+                circle2Y: Std.int(rectY + rectSize/2)
+            })
+            .ease(Linear.easeNone)
+            .onComplete(function() {
+                run();
+            });
     }
 }
