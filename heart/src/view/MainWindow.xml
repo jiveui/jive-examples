@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window
+        xmlns="jive"
+        xmlns:haxe="http://haxe.org/"
+        width="Metric.absolute(Std.int(Lib.current.stage.stageWidth))"
+        height="Metric.absolute(Std.int(Lib.current.stage.stageHeight))">
+    <haxe:Implements><![CDATA[jive.DataContextControllable<viewmodel.MainViewModel>]]></haxe:Implements>
+    <Svg width="Metric.percent(100)" height="Metric.percent(100)">
+        <content>
+            <rect x="{rectX}" y="{rectY}" width="{rectSize}" height="{rectSize}" stroke="{strokeColor}" fill="none"/>
+            <circle
+                    cx="{circle1X}"
+                    cy="{circle1Y}"
+                    r="{radius}"
+                    stroke="{strokeColor}"
+                    stroke-width="1"
+                    fill="none" />
+            <circle
+                    cx="{circle2X}"
+                    cy="{circle2Y}"
+                    r="{radius}"
+                    stroke="{strokeColor}"
+                    stroke-width="1"
+                    fill="none" />
+        </content>
+    </Svg>
+</Window>
