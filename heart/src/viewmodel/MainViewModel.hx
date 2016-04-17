@@ -18,10 +18,10 @@ class MainViewModel extends jive.ViewModel {
     public var rectX: Null<Int>;
     public var rectY: Null<Int>;
     public var rectSize: Null<Int>;
-
     public var strokeColor: String;
-
-    public var rotation: Float;
+    public var rotation: Null<Float>;
+    public var rectAlpha: Null<Float>;
+    public var circleAlpha: Null<Float>;
 
     public function new() {
         super();
@@ -46,7 +46,30 @@ class MainViewModel extends jive.ViewModel {
 
         rotation = 0.0;
 
-        moveCirclesToCorners();
+        rectAlpha = 0.0;
+        circleAlpha = 0.0;
+
+        showRect();
+    }
+
+    private function showRect() {
+        Actuate.tween(this, 1, {
+            rectAlpha: 1.0
+        })
+        .ease(Linear.easeNone)
+        .onComplete(function() {
+            showCircles();
+        });
+    }
+
+    private function showCircles() {
+        Actuate.tween(this, 1, {
+            circleAlpha: 1.0
+        })
+        .ease(Linear.easeNone)
+        .onComplete(function() {
+            moveCirclesToCorners();
+        });
     }
 
     private function moveCirclesToCorners() {
@@ -68,7 +91,18 @@ class MainViewModel extends jive.ViewModel {
         })
         .ease(Linear.easeNone)
         .onComplete(function() {
-            Timer.delay(function() { run(); }, 2000);
+            hideRectAndCircles();
+        });
+    }
+
+    private function hideRectAndCircles() {
+        Actuate.tween(this, 1, {
+            rectAlpha: 0.0,
+            circleAlpha: 0.0
+        })
+        .ease(Linear.easeNone)
+        .onComplete(function() {
+            Timer.delay(function() { run(); }, 1000);
         });
     }
 }

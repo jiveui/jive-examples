@@ -21,7 +21,9 @@
                         height="{rectSize}"
                         stroke="{strokeColor}"
                         stroke-width="1"
-                        fill="none"/>
+                        fill="none"
+                        stroke-dasharray="15, 10, 5, 10, 15"
+                        opacity="{rectAlpha}"/>
                 <circle
                         cx="{circle1X}"
                         cy="{circle1Y}"
@@ -29,7 +31,8 @@
                         stroke="{strokeColor}"
                         stroke-width="1.5"
                         stroke-dasharray="5 5"
-                        fill="none"/>
+                        fill="none"
+                        opacity="{circleAlpha}"/>
                 <circle
                         cx="{circle2X}"
                         cy="{circle2Y}"
@@ -37,7 +40,8 @@
                         stroke="{strokeColor}"
                         stroke-width="1.5"
                         stroke-dasharray="5 5"
-                        fill="none" />
+                        fill="none"
+                        opacity="{circleAlpha}"/>
             </g>
         </content>
     </Svg>
