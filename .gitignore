@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 heart/bin/.build
 heart/bin/gen/view/MainWindow.hx
 heart/bin/mac64/neko/bin/jive-tests.app/Contents/Entitlements.plist
@@ -22,4 +23,7 @@ heart/bin/mac64/neko/haxe/debug.hxml
 heart/bin/mac64/neko/haxe/final.hxml
 heart/bin/mac64/neko/haxe/release.hxml
 heart/bin/mac64/neko/obj/ApplicationMain.n
+=======
+heart/bin/
+>>>>>>> 4351f39a460776b5a54783b87ff222d2ace911be
 jive-examples.iws

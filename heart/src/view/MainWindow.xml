@@ -5,24 +5,43 @@
         width="Metric.absolute(Std.int(Lib.current.stage.stageWidth))"
         height="Metric.absolute(Std.int(Lib.current.stage.stageHeight))">
     <haxe:Implements><![CDATA[jive.DataContextControllable<viewmodel.MainViewModel>]]></haxe:Implements>
-    <Svg>
+    <Svg
+            x="Metric.percent(50)"
+            y="Metric.percent(20)"
+            width="Metric.absolute(450)"
+            height="Metric.absolute(450)"
+            rotationAngle="{Binding rotation}"
+            rotationPivot="new IntPoint(0, 450)">
         <content>
             <g>
-                <rect x="{rectX}" y="{rectY}" width="{rectSize}" height="{rectSize}" stroke="{strokeColor}" stroke-width="1" fill="none"/>
+                <rect
+                        x="{rectX}"
+                        y="{rectY}"
+                        width="{rectSize}"
+                        height="{rectSize}"
+                        stroke="{strokeColor}"
+                        stroke-width="1"
+                        fill="none"
+                        stroke-dasharray="15, 10, 5, 10, 15"
+                        opacity="{rectAlpha}"/>
                 <circle
                         cx="{circle1X}"
                         cy="{circle1Y}"
                         r="{radius}"
                         stroke="{strokeColor}"
-                        stroke-width="1"
-                        fill="none"/>
+                        stroke-width="1.5"
+                        stroke-dasharray="5 5"
+                        fill="none"
+                        opacity="{circleAlpha}"/>
                 <circle
                         cx="{circle2X}"
                         cy="{circle2Y}"
                         r="{radius}"
                         stroke="{strokeColor}"
-                        stroke-width="1"
-                        fill="none" />
+                        stroke-width="1.5"
+                        stroke-dasharray="5 5"
+                        fill="none"
+                        opacity="{circleAlpha}"/>
             </g>
         </content>
     </Svg>
