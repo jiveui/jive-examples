@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project>
-    <meta title="Jive Heart" package="jive" version="0.0.1" company="Jive" />
+    <meta title="Jive Heart" package="jive.examples.heart" version="0.0.1" company="Jive" />
 
     <!-- output -->
-    <app main="Application" file="jive-tests" path="bin" />
+    <app main="Application" file="heart" path="bin" />
 
     <window width="1000" height="700" background="0xFFFFFF" fps="125" antialiasing="4" vsync="true" hardware="true"/>
 
@@ -13,4 +13,6 @@
 
     <haxelib name="openfl" />
     <haxelib name="jive"/>
+
+    <config:hxtelemetry allocations="true" />
 </project>
