@@ -23,6 +23,12 @@ class MainViewModel extends jive.ViewModel {
     public var rectAlpha: Null<Float>;
     public var circleAlpha: Null<Float>;
 
+    public var heartX: Null<Int>;
+    public var heartY: Null<Int>;
+
+    public var heartAlpha: Null<Float>;
+    public var heartBorderAlpha: Null<Float>;
+
     public function new() {
         super();
         run();
@@ -48,6 +54,9 @@ class MainViewModel extends jive.ViewModel {
 
         rectAlpha = 0.0;
         circleAlpha = 0.0;
+
+        heartAlpha = 0.0;
+        heartBorderAlpha = 0.0;
 
         showRect();
     }
@@ -91,7 +100,7 @@ class MainViewModel extends jive.ViewModel {
         })
         .ease(Linear.easeNone)
         .onComplete(function() {
-            hideRectAndCircles();
+            showHeartBorder();
         });
     }
 
@@ -102,7 +111,27 @@ class MainViewModel extends jive.ViewModel {
         })
         .ease(Linear.easeNone)
         .onComplete(function() {
-            Timer.delay(function() { run(); }, 1000);
+            Timer.delay(function() { showHeart(); }, 1000);
+        });
+    }
+
+    private function showHeartBorder() {
+        Actuate.tween(this, 1, {
+            heartBorderAlpha: 1.0
+        })
+        .ease(Linear.easeNone)
+        .onComplete(function() {
+            Timer.delay(function() { hideRectAndCircles(); }, 1000);
+        });
+    }
+
+    private function showHeart() {
+        Actuate.tween(this, 1, {
+            heartAlpha: 1.0
+        })
+        .ease(Linear.easeNone)
+        .onComplete(function() {
+            Timer.delay(function() { run(); }, 2000);
         });
     }
 }
