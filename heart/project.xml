@@ -9,7 +9,6 @@
 
     <!-- classpath, haxe libs -->
     <source path="src" />
-    <source path="bin/gen" />
 
     <haxelib name="openfl" />
     <haxelib name="jive"/>

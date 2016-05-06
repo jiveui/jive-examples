@@ -17,28 +17,6 @@
     <orderEntry type="jdk" jdkName="Haxe 3.2.1" jdkType="Haxe toolkit" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
-      <library name="haxelib|openfl">
-        <CLASSES>
-          <root url="/usr/local/lib/haxe/lib/openfl/3,6,0/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="/usr/local/lib/haxe/lib/openfl/3,6,0/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="haxelib|/Users/ngrebenshikov/repositories/jive-next/src">
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/../../jive-next/src" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/../../jive-next/src" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
       <library name="haxelib|/usr/local/lib/haxe/lib/actuate/1,8,6">
         <CLASSES>
           <root url="file:///usr/local/lib/haxe/lib/actuate/1,8,6" />
@@ -79,6 +57,28 @@
         <JAVADOC />
         <SOURCES>
           <root url="file:///usr/local/lib/haxe/lib/unifill/0,4,0" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="haxelib|openfl">
+        <CLASSES>
+          <root url="/usr/local/lib/haxe/lib/openfl/3,6,1/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="/usr/local/lib/haxe/lib/openfl/3,6,1/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="haxelib|/Users/ngrebenshikov/repositories/jive-next">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../jive-next" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../jive-next" />
         </SOURCES>
       </library>
     </orderEntry>

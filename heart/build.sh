@@ -1,3 +1,2 @@
 #!/bin/bash
-haxe gen.hxml
-haxelib run lime build cpp
+haxelib run jive build cpp
