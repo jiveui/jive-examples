@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+    <meta title="Jive Heart" package="jive.examples.scroll" version="0.0.1" company="Jive" />
+
+    <!-- output -->
+    <app main="Application" file="scroll" path="bin" />
+
+    <window width="750" height="1334" background="0xFFFFFF" fps="60" antialiasing="4" vsync="true" hardware="true"/>
+    <window width="0" height="0" background="0xFFFFFF" fps="60" antialiasing="4" vsync="true" hardware="true" if="mobile"/>
+
+    <source path="src" />
+
+    <haxelib name="jive"/>
+
+    <assets path="assets"/>
+
+    <config:hxtelemetry host="192.168.88.238" allocations="true" />
+
+    <splashScreen path="assets/splashes/Default.jpg" width="320" height="480" if="ios"/>
+    <splashScreen path="assets/splashes/Default@2x.jpg" width="640" height="960" if="ios"/>
+    <splashScreen path="assets/splashes/Default-568h@2x.jpg" width="640" height="1136" if="ios"/>
+    <splashScreen path="assets/splashes/Default-667h@2x.jpg" width="750" height="1334" if="ios"/>
+
+</project>

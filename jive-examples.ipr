@@ -30,6 +30,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/heart/heart.iml" filepath="$PROJECT_DIR$/heart/heart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scroll/scroll.iml" filepath="$PROJECT_DIR$/scroll/scroll.iml" />
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="Haxe 3.2.1" project-jdk-type="Haxe toolkit">

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window
+        xmlns="jive"
+        xmlns:image="jive.image"
+        xmlns:geom="jive.geom"
+        xmlns:haxe="http://haxe.org/"
+        width="Metric.absolute(Std.int(Lib.current.stage.stageWidth))"
+        height="Metric.absolute(Std.int(Lib.current.stage.stageHeight))">
+    <haxe:Implements><![CDATA[jive.DataContextControllable<viewmodel.MainViewModel>]]></haxe:Implements>
+    <Swiper width="Metric.percent(100)" height="Metric.percent(100)">
+        <Scroll width="Metric.percent(100)" height="Metric.percent(100)">
+            <Flow width="Metric.percent(100)" height="Metric.absolute(3300)">
+                <image:AssetImage assetId="assets/maintenance_01.png"/>
+                <image:AssetImage assetId="assets/maintenance_02.png"/>
+                <image:AssetImage assetId="assets/maintenance_06.png"/>
+                <image:AssetImage assetId="assets/maintenance_03.png"/>
+                <image:AssetImage assetId="assets/maintenance_04.png"/>
+                <image:AssetImage assetId="assets/maintenance_05.png"/>
+            </Flow>
+        </Scroll>
+        <Scroll width="Metric.percent(100)" height="Metric.percent(100)">
+            <Flow width="Metric.percent(100)" height="Metric.absolute(3300)">
+                <image:AssetImage assetId="assets/maintenance_01.png"/>
+                <image:AssetImage assetId="assets/maintenance_02.png"/>
+                <image:AssetImage assetId="assets/maintenance_06.png"/>
+                <image:AssetImage assetId="assets/maintenance_03.png"/>
+                <image:AssetImage assetId="assets/maintenance_04.png"/>
+                <image:AssetImage assetId="assets/maintenance_05.png"/>
+            </Flow>
+        </Scroll>
+        <Scroll width="Metric.percent(100)" height="Metric.percent(100)">
+                <image:AssetImage assetId="assets/maintenance_01.png"/>
+                <image:AssetImage assetId="assets/maintenance_02.png"/>
+                <image:AssetImage assetId="assets/maintenance_06.png"/>
+                <image:AssetImage assetId="assets/maintenance_03.png"/>
+                <image:AssetImage assetId="assets/maintenance_04.png"/>
+                <image:AssetImage assetId="assets/maintenance_05.png"/>
+        </Scroll>
+        <Scroll width="Metric.percent(100)" height="Metric.percent(100)">
+            <Flow width="Metric.percent(100)" height="Metric.absolute(3300)">
+                <image:AssetImage assetId="assets/maintenance_01.png"/>
+                <image:AssetImage assetId="assets/maintenance_02.png"/>
+                <image:AssetImage assetId="assets/maintenance_06.png"/>
+                <image:AssetImage assetId="assets/maintenance_03.png"/>
+                <image:AssetImage assetId="assets/maintenance_04.png"/>
+                <image:AssetImage assetId="assets/maintenance_05.png"/>
+            </Flow>
+        </Scroll>
+    </Swiper>
+</Window>
