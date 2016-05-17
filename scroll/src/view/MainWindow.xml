@@ -29,12 +29,14 @@
             </Flow>
         </Scroll>
         <Scroll width="Metric.percent(100)" height="Metric.percent(100)">
+            <Flow width="Metric.percent(100)" height="Metric.absolute(3300)">
                 <image:AssetImage assetId="assets/maintenance_01.png"/>
                 <image:AssetImage assetId="assets/maintenance_02.png"/>
                 <image:AssetImage assetId="assets/maintenance_06.png"/>
                 <image:AssetImage assetId="assets/maintenance_03.png"/>
                 <image:AssetImage assetId="assets/maintenance_04.png"/>
                 <image:AssetImage assetId="assets/maintenance_05.png"/>
+            </Flow>
         </Scroll>
         <Scroll width="Metric.percent(100)" height="Metric.percent(100)">
             <Flow width="Metric.percent(100)" height="Metric.absolute(3300)">
