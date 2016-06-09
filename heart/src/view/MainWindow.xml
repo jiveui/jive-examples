@@ -3,8 +3,8 @@
         xmlns="jive"
         xmlns:geom="jive.geom"
         xmlns:haxe="http://haxe.org/"
-        width="Metric.absolute(Std.int(Lib.current.stage.stageWidth))"
-        height="Metric.absolute(Std.int(Lib.current.stage.stageHeight))">
+        width="{Binding windowWidth}"
+        height="{Binding windowHeight}">
     <haxe:Implements><![CDATA[jive.DataContextControllable<viewmodel.MainViewModel>]]></haxe:Implements>
     <Svg
             x="Metric.percent(50)"

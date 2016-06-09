@@ -10,8 +10,6 @@
     <!-- classpath, haxe libs -->
     <source path="src" />
 
-    <haxelib name="openfl" />
     <haxelib name="jive"/>
 
-    <config:hxtelemetry allocations="true" />
 </project>

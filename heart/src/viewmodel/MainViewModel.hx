@@ -1,5 +1,6 @@
 package viewmodel;
 
+import jive.geom.Metric;
 import haxe.Timer;
 import motion.easing.Linear;
 import motion.Actuate;
@@ -7,6 +8,10 @@ import jive.Color;
 import openfl.Lib;
 @:bindable
 class MainViewModel extends jive.ViewModel {
+    
+    public var windowWidth: Metric;
+    public var windowHeight: Metric;
+
     public var radius: Null<Int>;
 
     public var circle1X: Null<Int>;
@@ -37,6 +42,8 @@ class MainViewModel extends jive.ViewModel {
     private function run() {
 
         var stageW: Int = Std.int(Lib.current.stage.stageWidth);
+        windowWidth = Metric.absolute(stageW);
+        windowHeight = Metric.absolute(Std.int(Lib.current.stage.stageHeight));
 
         rectSize = 300;
 

@@ -9,44 +9,47 @@
     <haxe:Implements><![CDATA[jive.DataContextControllable<viewmodel.MainViewModel>]]></haxe:Implements>
     <Swiper width="Metric.percent(100)" height="Metric.percent(100)">
         <Scroll width="Metric.percent(100)" height="Metric.percent(100)">
-            <Flow width="Metric.percent(100)" height="Metric.absolute(3300)">
-                <image:AssetImage assetId="assets/maintenance_01.png"/>
-                <image:AssetImage assetId="assets/maintenance_02.png"/>
-                <image:AssetImage assetId="assets/maintenance_06.png"/>
-                <image:AssetImage assetId="assets/maintenance_03.png"/>
-                <image:AssetImage assetId="assets/maintenance_04.png"/>
-                <image:AssetImage assetId="assets/maintenance_05.png"/>
+            <Flow width="Metric.percent(100)" height="Metric.absolute(3458)">
+                <image:AssetImage assetId="assets/scroller1.jpg"/>
+                <!--<image:AssetImage assetId="assets/maintenance_01.png"/>-->
+                <!--<image:AssetImage assetId="assets/maintenance_02.png"/>-->
+                <!--<image:AssetImage assetId="assets/maintenance_06.png"/>-->
+                <!--<image:AssetImage assetId="assets/maintenance_03.png"/>-->
+                <!--<image:AssetImage assetId="assets/maintenance_04.png"/>-->
+                <!--<image:AssetImage assetId="assets/maintenance_05.png"/>-->
             </Flow>
         </Scroll>
         <Scroll width="Metric.percent(100)" height="Metric.percent(100)">
-            <Flow width="Metric.percent(100)" height="Metric.absolute(3300)">
-                <image:AssetImage assetId="assets/maintenance_01.png"/>
-                <image:AssetImage assetId="assets/maintenance_02.png"/>
-                <image:AssetImage assetId="assets/maintenance_06.png"/>
-                <image:AssetImage assetId="assets/maintenance_03.png"/>
-                <image:AssetImage assetId="assets/maintenance_04.png"/>
-                <image:AssetImage assetId="assets/maintenance_05.png"/>
+            <Flow width="Metric.percent(100)" height="Metric.absolute(3579)">
+                <image:AssetImage assetId="assets/scroll-asia.jpg"/>
+                <!--<image:AssetImage assetId="assets/maintenance_01.png"/>-->
+                <!--<image:AssetImage assetId="assets/maintenance_02.png"/>-->
+                <!--<image:AssetImage assetId="assets/maintenance_06.png"/>-->
+                <!--<image:AssetImage assetId="assets/maintenance_03.png"/>-->
+                <!--<image:AssetImage assetId="assets/maintenance_04.png"/>-->
+                <!--<image:AssetImage assetId="assets/maintenance_05.png"/>-->
             </Flow>
         </Scroll>
         <Scroll width="Metric.percent(100)" height="Metric.percent(100)">
-            <Flow width="Metric.percent(100)" height="Metric.absolute(3300)">
-                <image:AssetImage assetId="assets/maintenance_01.png"/>
-                <image:AssetImage assetId="assets/maintenance_02.png"/>
-                <image:AssetImage assetId="assets/maintenance_06.png"/>
-                <image:AssetImage assetId="assets/maintenance_03.png"/>
-                <image:AssetImage assetId="assets/maintenance_04.png"/>
-                <image:AssetImage assetId="assets/maintenance_05.png"/>
+            <Flow width="Metric.percent(100)" height="Metric.absolute(3900)">
+                <image:AssetImage assetId="assets/scroll-north-america.jpg"/>
+                <!--<image:AssetImage assetId="assets/maintenance_01.png"/>-->
+                <!--<image:AssetImage assetId="assets/maintenance_02.png"/>-->
+                <!--<image:AssetImage assetId="assets/maintenance_06.png"/>-->
+                <!--<image:AssetImage assetId="assets/maintenance_03.png"/>-->
+                <!--<image:AssetImage assetId="assets/maintenance_04.png"/>-->
+                <!--<image:AssetImage assetId="assets/maintenance_05.png"/>-->
             </Flow>
         </Scroll>
-        <Scroll width="Metric.percent(100)" height="Metric.percent(100)">
-            <Flow width="Metric.percent(100)" height="Metric.absolute(3300)">
-                <image:AssetImage assetId="assets/maintenance_01.png"/>
-                <image:AssetImage assetId="assets/maintenance_02.png"/>
-                <image:AssetImage assetId="assets/maintenance_06.png"/>
-                <image:AssetImage assetId="assets/maintenance_03.png"/>
-                <image:AssetImage assetId="assets/maintenance_04.png"/>
-                <image:AssetImage assetId="assets/maintenance_05.png"/>
-            </Flow>
-        </Scroll>
+        <!--<Scroll width="Metric.percent(100)" height="Metric.percent(100)">-->
+            <!--<Flow width="Metric.percent(100)" height="Metric.absolute(3300)">-->
+                <!--<image:AssetImage assetId="assets/maintenance_01.png"/>-->
+                <!--<image:AssetImage assetId="assets/maintenance_02.png"/>-->
+                <!--<image:AssetImage assetId="assets/maintenance_06.png"/>-->
+                <!--<image:AssetImage assetId="assets/maintenance_03.png"/>-->
+                <!--<image:AssetImage assetId="assets/maintenance_04.png"/>-->
+                <!--<image:AssetImage assetId="assets/maintenance_05.png"/>-->
+            <!--</Flow>-->
+        <!--</Scroll>-->
     </Swiper>
 </Window>

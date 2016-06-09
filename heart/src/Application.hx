@@ -10,6 +10,5 @@ class Application {
         var w: MainWindow = new MainWindow();
         w.dataContext = new MainViewModel();
         w.opened = true;
-
     }
 }
