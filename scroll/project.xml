@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project>
-    <meta title="Jive Heart" package="jive.examples.scroll" version="0.0.1" company="Jive" />
+    <meta title="Scroll Example" package="jive.examples.scroll" version="0.0.1" company="Jive" />
 
     <!-- output -->
     <app main="Application" file="scroll" path="bin" />
