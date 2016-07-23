@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window
+        xmlns="jive"
+        xmlns:image="jive.image"
+        xmlns:geom="jive.geom"
+        xmlns:haxe="http://haxe.org/"
+        width="Metric.absolute(Std.int(Lib.current.stage.stageWidth))"
+        height="Metric.absolute(Std.int(Lib.current.stage.stageHeight))">
+    <haxe:Implements><![CDATA[jive.DataContextControllable<viewmodel.MainViewModel>]]></haxe:Implements>
+
+    <Flow width="Metric.percent(100)" height="Metric.percent(100)">
+        <Label text="Grumpy wizards make toxic brew for the evil Queen and Jack." fontName="assets/Lobster-Regular.ttf" fontSize="30" />
+        <Label text="Grumpy wizards make toxic brew for the evil Queen and Jack." fontName="assets/IndieFlower.ttf" fontSize="50" />
+        <Label text="Grumpy wizards make toxic brew for the evil Queen and Jack." fontName="assets/Montserrat-Bold.ttf" fontSize="30" />
+    </Flow>
+</Window>
