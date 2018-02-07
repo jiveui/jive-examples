@@ -4,3 +4,4 @@ scroll/bin
 *.local/
 *.*~
 button/bin
+*/bin
