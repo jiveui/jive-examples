@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JWindow
+        xmlns="org.aswing"
+        xmlns:jive="jive"
+        xmlns:image="jive.image"
+        xmlns:haxe="http://haxe.org/"
+        width="Std.int(Lib.current.stage.stageWidth)"
+        height="Std.int(Lib.current.stage.stageHeight)">
+    <haxe:Implements><![CDATA[jive.DataContextControllable<viewmodel.MainViewModel>]]></haxe:Implements>
+    <content>
+        <jive:Swiper width="Std.int(Lib.current.stage.stageWidth)" height="Std.int(Lib.current.stage.stageHeight)">
+            <JScrollPane
+                    width="Std.int(Lib.current.stage.stageWidth)"
+                    height="Std.int(Lib.current.stage.stageHeight)"
+                    verticalScrollBarPolicy="JScrollPane.SCROLLBAR_NEVER"
+                    horizontalScrollBarPolicy="JScrollPane.SCROLLBAR_NEVER">
+                <SoftBox>
+                    <image:AssetImage assetId="assets/europe/head.jpeg" preferredWidth="Std.int(Lib.current.stage.stageWidth)"/>
+                    <image:AssetImage assetId="assets/europe/body-1.jpeg" width="Std.int(Lib.current.stage.stageWidth)"/>
+                    <image:AssetImage assetId="assets/europe/body-2.jpeg" width="Std.int(Lib.current.stage.stageWidth)"/>
+                    <image:AssetImage assetId="assets/europe/body-3.jpeg" width="Std.int(Lib.current.stage.stageWidth)"/>
+                    <image:AssetImage assetId="assets/europe/footer.jpeg" width="Std.int(Lib.current.stage.stageWidth)"/>
+                </SoftBox>
+            </JScrollPane>
+            <JScrollPane
+                    width="Std.int(Lib.current.stage.stageWidth)"
+                    height="Std.int(Lib.current.stage.stageHeight)"
+                    verticalScrollBarPolicy="JScrollPane.SCROLLBAR_NEVER"
+                    horizontalScrollBarPolicy="JScrollPane.SCROLLBAR_NEVER">
+                <SoftBox>
+                    <image:AssetImage assetId="assets/asia/head.jpeg" width="Std.int(Lib.current.stage.stageWidth)"/>
+                    <image:AssetImage assetId="assets/asia/body-1.jpeg" width="Std.int(Lib.current.stage.stageWidth)"/>
+                    <image:AssetImage assetId="assets/asia/body-2.jpeg" width="Std.int(Lib.current.stage.stageWidth)"/>
+                    <image:AssetImage assetId="assets/asia/body-3.jpeg" width="Std.int(Lib.current.stage.stageWidth)"/>
+                    <image:AssetImage assetId="assets/asia/footer.jpeg" width="Std.int(Lib.current.stage.stageWidth)"/>
+                </SoftBox>
+            </JScrollPane>
+            <JScrollPane
+                    width="Std.int(Lib.current.stage.stageWidth)"
+                    height="Std.int(Lib.current.stage.stageHeight)"
+                    verticalScrollBarPolicy="JScrollPane.SCROLLBAR_NEVER"
+                    horizontalScrollBarPolicy="JScrollPane.SCROLLBAR_NEVER">
+                <SoftBox>
+                    <image:AssetImage assetId="assets/north-america/head.jpeg" width="Std.int(Lib.current.stage.stageWidth)"/>
+                    <image:AssetImage assetId="assets/north-america/body-1.jpeg" width="Std.int(Lib.current.stage.stageWidth)"/>
+                    <image:AssetImage assetId="assets/north-america/body-2.jpeg" width="Std.int(Lib.current.stage.stageWidth)"/>
+                    <image:AssetImage assetId="assets/north-america/body-3.jpeg" width="Std.int(Lib.current.stage.stageWidth)"/>
+                    <image:AssetImage assetId="assets/north-america/footer.jpeg" width="Std.int(Lib.current.stage.stageWidth)"/>
+                </SoftBox>
+            </JScrollPane>
+        </jive:Swiper>
+    </content>
+</JWindow>

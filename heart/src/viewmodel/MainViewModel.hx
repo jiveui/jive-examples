@@ -1,16 +1,17 @@
 package viewmodel;
 
-import jive.geom.Metric;
+import org.aswing.ASColor;
+import org.aswing.geom.IntPoint;
 import haxe.Timer;
 import motion.easing.Linear;
 import motion.Actuate;
-import jive.Color;
 import openfl.Lib;
+
 @:bindable
-class MainViewModel extends jive.ViewModel {
+class MainViewModel implements bindx.IBindable  {
     
-    public var windowWidth: Metric;
-    public var windowHeight: Metric;
+    public var windowWidth: Int;
+    public var windowHeight: Int;
 
     public var radius: Null<Int>;
 
@@ -34,23 +35,28 @@ class MainViewModel extends jive.ViewModel {
     public var heartAlpha: Null<Float>;
     public var heartBorderAlpha: Null<Float>;
 
+    public var pictureLocation: IntPoint;
+    public var heartLocation: IntPoint;
+
     public function new() {
-        super();
         run();
     }
 
     private function run() {
 
         var stageW: Int = Std.int(Lib.current.stage.stageWidth);
-        windowWidth = Metric.absolute(stageW);
-        windowHeight = Metric.absolute(Std.int(Lib.current.stage.stageHeight));
+        windowWidth = stageW;
+        windowHeight = Std.int(Lib.current.stage.stageHeight);
+
+        pictureLocation = new IntPoint(Math.floor(windowWidth/2), Math.floor(windowHeight/5));
+        heartLocation = pictureLocation.clone().move(-256, -18);
 
         rectSize = 300;
 
         rectX =  0;
         rectY =  150;
 
-        strokeColor = Color.LIGHT_GRAY.toSvg();
+        strokeColor = ASColor.LIGHT_GRAY.toSvg();
 
         radius = 150;
 

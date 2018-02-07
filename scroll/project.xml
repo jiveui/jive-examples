@@ -5,11 +5,10 @@
     <!-- output -->
     <app main="Application" file="scroll" path="bin" />
 
-    <window width="750" height="1334" background="0xFFFFFF" fps="60" antialiasing="4" vsync="true" hardware="true"/>
+    <window width="400" height="600" background="0xFFFFFF" fps="60" antialiasing="4" vsync="true" hardware="true" unless="mobile"/>
     <window width="0" height="0" background="0xFFFFFF" fps="60" antialiasing="4" vsync="true" hardware="true" if="mobile"/>
 
     <source path="src" />
-
 
     <haxelib name="openfl"/>
     <haxelib name="jive"/>
@@ -18,4 +17,5 @@
 
     <config:hxtelemetry host="192.168.88.238" allocations="true" />
 
+    <certificate team-id="3XSM34Q7TE" if="ios"/>
 </project>

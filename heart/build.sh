@@ -1,2 +1,2 @@
 #!/bin/bash
-haxelib run jive build cpp
+haxelib run jive test html5

@@ -1,14 +1,15 @@
 package ;
 
+
 import view.MainWindow;
 import viewmodel.MainViewModel;
 import jive.*;
 
 class Application {
-    public function new() {
-        Jive.start();
+    public static function main() {
+        Jive.init();
         var w: MainWindow = new MainWindow();
         w.dataContext = new MainViewModel();
-        w.opened = true;
+        w.show();
     }
 }

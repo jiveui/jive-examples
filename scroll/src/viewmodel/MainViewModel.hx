@@ -3,10 +3,10 @@ package viewmodel;
 import openfl.Lib;
 
 @:bindable
-class MainViewModel extends jive.ViewModel {
+class MainViewModel implements bindx.IBindable {
 
     public function new() {
-        super();
+
     }
 
 }

@@ -4,92 +4,37 @@
     <option name="buildConfig" value="3" />
     <option name="openFLFlags" value="-debug" />
     <option name="openFLPath" value="$MODULE_DIR$/project.xml" />
-    <option name="openFLTarget" value="Mac OS" />
+    <option name="openFLTarget" value="HTML5" />
     <option name="outputFolder" value="$MODULE_DIR$/../out/production/heart" />
   </component>
-  <component name="NewModuleRootManager" inherit-compiler-output="false">
+  <component name="NewModuleRootManager">
     <output url="file://$MODULE_DIR$/../out/production/heart" />
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/bin/gen" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="Haxe 3.2.1" jdkType="Haxe toolkit" />
+    <orderEntry type="jdk" jdkName="Haxe 3.4.4" jdkType="Haxe toolkit" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library">
-      <library name="haxelib|/usr/local/lib/haxe/lib/actuate/1,8,6">
-        <CLASSES>
-          <root url="file:///usr/local/lib/haxe/lib/actuate/1,8,6" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="file:///usr/local/lib/haxe/lib/actuate/1,8,6" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="haxelib|/usr/local/lib/haxe/lib/bindx2/2,5,2/src">
-        <CLASSES>
-          <root url="file:///usr/local/lib/haxe/lib/bindx2/2,5,2/src" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="file:///usr/local/lib/haxe/lib/bindx2/2,5,2/src" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="haxelib|/usr/local/lib/haxe/lib/hml/0,0,2-alpha/src">
-        <CLASSES>
-          <root url="file:///usr/local/lib/haxe/lib/hml/0,0,2-alpha/src" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="file:///usr/local/lib/haxe/lib/hml/0,0,2-alpha/src" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="haxelib|/usr/local/lib/haxe/lib/unifill/0,4,0">
-        <CLASSES>
-          <root url="file:///usr/local/lib/haxe/lib/unifill/0,4,0" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="file:///usr/local/lib/haxe/lib/unifill/0,4,0" />
-        </SOURCES>
-      </library>
-    </orderEntry>
     <orderEntry type="module-library">
       <library name="haxelib|openfl">
         <CLASSES>
-          <root url="/usr/local/lib/haxe/lib/openfl/3,6,1/" />
+          <root url="file://$MODULE_DIR$/../../openfl/src" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="/usr/local/lib/haxe/lib/openfl/3,6,1/" />
+          <root url="file://$MODULE_DIR$/../../openfl/src" />
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="haxelib|/Users/ngrebenshikov/repositories/jive-next">
+      <library name="haxelib|jive">
         <CLASSES>
-          <root url="file://$MODULE_DIR$/../../jive-next" />
+          <root url="file://$MODULE_DIR$/../../jive" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="file://$MODULE_DIR$/../../jive-next" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="haxelib|/usr/local/lib/haxe/lib/svg/1,0,9">
-        <CLASSES>
-          <root url="file:///usr/local/lib/haxe/lib/svg/1,0,9" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="file:///usr/local/lib/haxe/lib/svg/1,0,9" />
+          <root url="file://$MODULE_DIR$/../../jive" />
         </SOURCES>
       </library>
     </orderEntry>

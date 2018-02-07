@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+    <meta title="Button Example" package="jive.examples.button" version="0.0.1" company="Jive" />
+
+    <!-- output -->
+    <app main="Application" file="button" path="bin" />
+
+    <window width="0" height="0" background="0xFFFFFF" fps="60" antialiasing="4" vsync="true" hardware="true"/>
+
+    <source path="src" />
+
+
+    <haxelib name="openfl"/>
+    <haxelib name="jive"/>
+
+    <!--<config:hxtelemetry host="192.168.88.238" allocations="true" />-->
+
+</project>
