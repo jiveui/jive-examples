@@ -5,8 +5,7 @@
     <!-- output -->
     <app main="Application" file="label" path="bin" />
 
-    <window width="750" height="1334" background="0xFFFFFF" fps="60" antialiasing="4" vsync="true" hardware="true"/>
-    <window width="0" height="0" background="0xFFFFFF" fps="120" antialiasing="4" vsync="true" hardware="true" if="mobile"/>
+    <window width="0" height="0" background="0xFFFFFF" fps="120" antialiasing="4" vsync="true" hardware="true"/>
 
     <source path="src" />
 

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JWindow
+        xmlns="org.aswing"
+        xmlns:ext="org.aswing.ext"
+        xmlns:haxe="http://haxe.org/"
+        width="Std.int(Lib.current.stage.stageWidth)"
+        height="Std.int(Lib.current.stage.stageHeight)">
+    <haxe:Implements><![CDATA[jive.DataContextControllable<viewmodel.MainViewModel>]]></haxe:Implements>
+    <content>
+        <JPanel width="Std.int(Lib.current.stage.stageWidth)"
+                 height="Std.int(Lib.current.stage.stageHeight)">
+            <JLabel text="Grumpy wizards make toxic brew for the evil Queen and Jack." foreground="ASColor.BLACK" fo/>
+            <JLabel text="Grumpy wizards make toxic brew for the evil Queen and Jack." foreground="new ASColor(0x45D0FF)" font="new ASFont('Indie Flower', 30)"  />
+            <JLabel text="Grumpy wizards make toxic brew for the evil Queen and Jack." font="new ASFont('Indie Flower', 30)" />
+            <JTextArea
+                text="Grumpy wizards make toxic brew for the evil Queen and Jack."
+                wordWrap="true"
+                rows="10"
+                columns="10"
+                font="new ASFont('Monseratt-Bold', 50)"/>
+        </JPanel>
+    </content>
+</JWindow>
